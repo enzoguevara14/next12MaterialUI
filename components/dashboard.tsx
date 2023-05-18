@@ -7,7 +7,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { CardActionArea, Grid } from '@mui/material';
-import { DashboardStyles } from './DashboardStyles.styles';
+import { DashboardStyles } from './dashboardStyles.styles';
 
 function Dashboard() {
   const [dataApi, setData] = useState<Result[]>([])
